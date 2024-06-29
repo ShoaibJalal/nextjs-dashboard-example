@@ -11,6 +11,7 @@ import { Button } from './button';
 
 import { useFormState } from 'react-dom';
 import { authenticate } from '@/app/lib/actions';
+import { useActionState } from 'react';
 
 export default function LoginForm() {
   const [errorMessage, formAction] = useFormState(
